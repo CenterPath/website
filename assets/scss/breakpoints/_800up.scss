@@ -40,7 +40,7 @@ HOMEPAGE STYLING
 
 #home {
 	.posts, .pageTitle, .pagination {
-    width: 75%;
+    width: 100%;
 		float: none;
 		margin: 0 auto 1.5em;
 	}
@@ -232,4 +232,11 @@ CONTACT PAGE STYLING
     float: right;
     margin-right: 0;
 	}
+}
+
+div.home ul {
+	margin-top: 2em;
+}
+div.home ul li {
+	margin-bottom: 1em;
 }

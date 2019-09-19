@@ -1,26 +1,39 @@
 ---
 layout: default
-title: Long Haul
+title: Center Path LLC
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
-      </li>
-    {% endfor %}
+  <h2 class="pageTitle">Level up your DevOps game!</h2>
+
+  <h3>DevOps challenges are a major distraction.</h3>
+
+  <ul>
+    <li>Deployment times slow to a crawl as your teams focus their energies on adding new features.</li>
+
+    <li>More and more bugs make it through flaky test suites leaving customers with a terrible experience of your product.</li>
+
+    <li>Your engineers seem to be stuck in firefighting mode while a backlog of unfinished improvement projects pile up.</li>
+
+    <li>Engineers move on in their careers leaving behind homegrown solutions without any documentation.</li>
   </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
-    {% endif %}
-  </div>
+
+  <p>There are a million posts on Hacker News about processes, frameworks, and tools promising to cure all ills. DevOps practices are an iterative journey not a mystical destination. It takes ongoing effort to keep your people collaborating and your applications performing to their full potential.</p>
+
+  <p>How do you know what changes to make to get yourself back into the business of serving your customers? That's where Central Path can help.</p>
+
+  <h3>Get back to focusing on your customers.</h3>
+
+  <p>Getting your people and your platform to the next level is within reach. It starts with identifying where you want to be and what stands in the way.</p>
+
+  <p>We'll partner with your teams to identify the sticking points in your current processes and technology. Equipped with that knowledge we'll make an actionable plan to level up your people and processes together.</p>
+
+  <p>And you'll finally be able to get back to serving your customers.</p>
+
+  <h3>Let's get started, together.</h3>
+
+  <p>Schedule a free 30 minute call to discuss your company's needs now. We'll get started breaking down the issues you are struggling with and find a path to where you want go.</p>
+
+  <p class="action"><a class="next button__outline">Schedule a free 30 minute call</a></p>
+
 </div>
