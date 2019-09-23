@@ -1,14 +1,16 @@
 title: Center Path LLC
 description: DevOps coaching and consulting
 
-url: http://www.centerpath.io
+url: https://www.centerpath.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 paginate: 5
 
 navigation:
