@@ -5,6 +5,7 @@ url: https://www.centerpath.io
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
+description: Level up your team's DevOps game with a software development mindset. Cloud automation, containers, CI/CD pipelines, Kubernetes and serverless workloads.
 
 markdown: kramdown
 highlighter: rouge
